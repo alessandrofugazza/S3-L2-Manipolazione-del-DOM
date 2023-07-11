@@ -115,7 +115,7 @@
         */
 
       const changeUrls = function () {
-        const links = document.querySelectorAll("body>*:not(footer) a");
+        const links = document.querySelectorAll("a:not(footer a)");
         links.forEach(link => link.setAttribute("href", "https://www.google.com"));
       };
 
